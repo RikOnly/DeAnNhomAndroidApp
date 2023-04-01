@@ -1,3 +1,51 @@
 <resources>
-    <string name="app_name">DeAnNhom</string>
+    <string name="app_name">E - DICT PRO 2023</string>
+    <string name="password">Password</string>
+    <string name="email">Email</string>
+    <string name="sign_in">Sign In</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="confirm">Confirm Password</string>
+    <string name="welcome_back">Welcome back! We miss you</string>
+    <string name="forgot_pass">Forgot password?</string>
+    <string name="register">Register an account</string>
+    <string name="login_with_google">Continue with Google</string>
+    <string name="login_with_facebook">Continue with Facebook</string>
+    <string name="new_account">Don’t have an account?</string>
+    <string name="sign_up_here">Sign up here!</string>
+    <string name="welcome">Let’s get you started!</string>
+    <string name="or_sign_in_with">Or Sign In With</string>
+    <string name="exist_account">Already have an account?</string>
+    <string name="sign_in_here">Sign in here!</string>
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="search_word">Enter a word you want to know!</string>
+    <string name="search_icon_button">Search icon button</string>
+    <string name="account_text">Account</string>
+    <string name="name">Username</string>
+    <string name="user_information">User information</string>
+    <string name="user_config">Setting</string>
+    <string name="darkmode_setting">Darkmode</string>
+    <string name="logout_setting">Logout</string>
+    <string name="user_profile_image">User profile image</string>
+    <string name="title_activity_edit_info">EditInfoActivity</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="title_home">Home</string>
+    <string name="title_history">History</string>
+    <string name="title_favorite">Favorite</string>
+    <string name="title_account">Account</string>
+    <string name="title_edit_info">Edit Information</string>
+    <string name="title_register">Register</string>
+    <string name="title_login">Login</string>
+    <string name="history_placeholder_word">Word</string>
+    <string name="history_placeholder_translated">Translated</string>
+    <string name="facebook_login">Facebook login</string>
+    <string name="google_login">Google Login</string>
+    <string name="edit_button">Edit</string>
 </resources>

@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "272316683298",
+    "project_id": "android-app-d1067",
+    "storage_bucket": "android-app-d1067.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:272316683298:android:44495ec375fc96a665e67b",
+        "android_client_info": {
+          "package_name": "com.deannhom.androidapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "272316683298-192pcb9m7dom9evrsv3he47gbqukag5p.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCKeCiuMcGIGNIFM8__Z0q8gZpe8EidVjU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "272316683298-192pcb9m7dom9evrsv3he47gbqukag5p.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

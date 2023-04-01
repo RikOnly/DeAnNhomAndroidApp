@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_gradient"
+    android:orientation="vertical"
+    android:paddingHorizontal="20dp"
+    tools:context=".fragment.Account.AccountFragment">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+
+        android:fontFamily="@font/inconsolata"
+        android:gravity="center"
+        android:text="@string/account_text"
+        android:textSize="35sp"
+        android:textColor="@color/white"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/imgUserAvatar"
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:layout_marginTop="15dp"
+
+        android:contentDescription="@string/user_profile_image"
+        android:src="@drawable/placeholder_image" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:orientation="vertical">
+
+        <com.google.android.flexbox.FlexboxLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:alignItems="center"
+            app:justifyContent="space_between">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:fontFamily="@font/inconsolata"
+                android:text="@string/user_information"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btnEditUser"
+                style="@style/Widget.MaterialComponents.Button.TextButton.Icon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/inconsolata"
+                android:minHeight="0dp"
+                android:text="@string/edit_button"
+                android:textAllCaps="false"
+                android:textColor="@color/icon"
+                android:textSize="15sp"
+                android:textStyle="bold"
+
+                app:icon="@drawable/baseline_edit_24"
+                app:iconTint="@color/icon" />
+
+        </com.google.android.flexbox.FlexboxLayout>
+
+        <TextView
+            android:id="@+id/textUsername"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/rounded_corner"
+            android:backgroundTint="@color/white"
+            android:fontFamily="@font/inconsolata"
+            android:gravity="center|start"
+            android:paddingHorizontal="30dp"
+            android:paddingVertical="15dp"
+            android:text="@string/name"
+            android:textColor="@color/black"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/textUserEmail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/rounded_corner"
+            android:backgroundTint="@color/white"
+            android:fontFamily="@font/inconsolata"
+            android:gravity="center|start"
+            android:paddingHorizontal="30dp"
+            android:paddingVertical="15dp"
+            android:text="@string/email"
+            android:textColor="@color/black"
+            android:textSize="15sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginTop="20dp"
+            android:fontFamily="@font/inconsolata"
+            android:text="@string/user_config"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnSignIn"
+            style="@style/Widget.Material3.Button.ElevatedButton.Icon"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/inconsolata"
+            android:gravity="center|start"
+            android:text="@string/sign_in"
+            android:textAllCaps="false"
+            android:textColor="@color/icon"
+            android:textSize="15sp"
+            android:textStyle="bold"
+
+            app:cornerRadius="15dp"
+            app:icon="@drawable/baseline_login_24"
+            app:iconTint="@color/icon" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnDarkmode"
+            style="@style/Widget.Material3.Button.ElevatedButton.Icon"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/inconsolata"
+            android:gravity="center|start"
+            android:text="@string/darkmode_setting"
+            android:textAllCaps="false"
+            android:textColor="@color/icon"
+            android:textSize="15sp"
+            android:textStyle="bold"
+
+            app:cornerRadius="15dp"
+            app:icon="@drawable/baseline_dark_mode_24"
+            app:iconTint="@color/icon" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnLogout"
+            style="@style/Widget.Material3.Button.ElevatedButton.Icon"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/inconsolata"
+            android:gravity="center|start"
+            android:text="@string/logout_setting"
+            android:textAllCaps="false"
+            android:textColor="@color/icon"
+            android:textSize="15sp"
+            android:textStyle="bold"
+
+            app:cornerRadius="15dp"
+            app:icon="@drawable/baseline_logout_24"
+            app:iconTint="@color/icon" />
+
+    </LinearLayout>
+
+</LinearLayout>
