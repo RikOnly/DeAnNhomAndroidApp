@@ -104,4 +104,10 @@ public class RegisterFragment extends Fragment {
 
         NavHostFragment.findNavController(this).navigate(R.id.action_navigation_register_to_navigation_account);
     }
+
+    @Override
+    public void onDestroy() {
+        super.onDestroy();
+        binding = null;
+    }
 }
